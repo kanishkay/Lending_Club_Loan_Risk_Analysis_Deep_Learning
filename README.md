@@ -14,7 +14,6 @@ This project leverages Deep Learning (Neural Networks) alongside feature enginee
 
 * **`lending_club_loans.csv`**: Dataset containing loan and borrower details such as `loan_amnt`, `grade`, `annual_income`, `loan_status`, etc.
 * **`lending_club_model.ipynb`**: Full implementation with exploratory data analysis (EDA), preprocessing, normalization, model creation, training, and evaluation.
-* **`requirements.txt`**: Python dependencies required to run the project.
 
 ---
 
