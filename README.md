@@ -170,12 +170,6 @@ The dataset contains loan and borrower information with multiple features descri
    * Total accounts and mortgage accounts (credit history depth)
    * Loan amount and installment size (repayment burden)
 
-3. **Actionable Recommendations:**
-   * Implement model as decision support tool for loan officers
-   * Apply risk-based pricing strategies for high-risk segments
-   * Monitor false negatives (approved loans that default) to minimize losses
-   * Retrain model quarterly with new loan performance data
-
 ---
 
 ## 🛠️ Tools and Libraries Used
@@ -186,32 +180,6 @@ The dataset contains loan and borrower information with multiple features descri
   * `seaborn` and `matplotlib`: Visualizations for EDA and model evaluation.
   * `tensorflow` and `keras`: Deep learning model architecture, training, and callbacks.
   * `scikit-learn`: Preprocessing (MinMaxScaler), train-test split, and metrics evaluation (confusion matrix, classification report).
-
----
-
-## 🚀 Future Enhancements
-
-1. **Class Imbalance Handling:**
-   * Implement SMOTE (Synthetic Minority Oversampling Technique) to balance Charged Off vs. Fully Paid samples
-   * Apply class weighting to penalize false negatives more heavily
-
-2. **Model Comparison:**
-   * Benchmark against Random Forest, XGBoost, and Logistic Regression
-   * Create ensemble models for improved robustness and accuracy
-
-3. **Advanced Feature Engineering:**
-   * Incorporate external economic indicators (unemployment rate, GDP, interest rate trends)
-   * Add temporal features (loan seasonality, economic cycle indicators)
-   * Create interaction features (e.g., loan_amount × interest_rate)
-
-4. **Hyperparameter Optimization:**
-   * Grid search or Bayesian optimization for layer sizes, dropout rates, learning rates
-   * Experiment with different activation functions (LeakyReLU, ELU)
-
-5. **Model Deployment:**
-   * Package model as REST API using Flask or FastAPI
-   * Build real-time prediction dashboard for loan officers
-   * Implement A/B testing framework for continuous improvement
 
 ---
 
