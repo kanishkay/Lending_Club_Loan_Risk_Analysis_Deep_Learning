@@ -76,27 +76,6 @@ Key visualizations and data patterns:
 3. **Key Metrics**:
    - Accuracy remained steady across train and validation datasets, with well-regularized training thanks to dropouts.
 
-### Evaluation:
-1. **Confusion Matrix**:
-   ```
-   [[ 8303 11155]
-    [    0 79347]]
-   ```
-2. **Classification Report**:
-   ```
-               precision    recall  f1-score   support
-
-           0       1.00      0.43      0.60     19458
-           1       0.88      1.00      0.93     79347
-
-    accuracy                           0.89     98805
-   macro avg       0.94      0.71      0.77     98805
-weighted avg       0.90      0.89      0.87     98805
-   ```
-3. Observations:
-   - **Class 1 (Fully Paid)**: High recall (1.00) ensures few false negatives, crucial in financial applications.
-   - **Class 0 (Charged Off)**: Precision (1.00) indicates accurate identification of loan defaults despite imbalanced data.
-
 ---
 
 ## 📊 Key Insights and Visuals
