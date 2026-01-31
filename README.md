@@ -1,6 +1,6 @@
 # 💰 Lending Club Loan Default Prediction
 
-📊 A deep learning project to predict loan defaults for LendingClub customers. Neural networks are applied to classify loans as either Fully Paid or Charged Off based on borrower details, loan attributes, and financial metrics.
+📊 A deep learning project to predict loan defaults for LendingClub customers. Neural networks are applied to classify loans as either Fully Paid or Charged Off based on borrower details, loan attributes, and financial metrics
 
 **Dataset Source:** LendingClub Loan Dataset
 
