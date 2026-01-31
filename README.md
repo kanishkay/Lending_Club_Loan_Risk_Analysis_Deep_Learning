@@ -2,14 +2,14 @@
 
 📊 A deep learning project to predict loan defaults for LendingClub customers. Neural networks are applied to classify loans as either Fully Paid or Charged Off based on borrower details, loan attributes, and financial metrics
 
-**Dataset Source:** [LendingClub Loan Dataset](https://www.kaggle.com/wordsforthewise/lending-club)
+**Dataset Source:** [Lending Club Loan Dataset](https://www.kaggle.com/wordsforthewise/lending-club)
 
 
 ---
 
 ## 📁 Project Structure
 
-* `lending_club_model.ipynb`: Python script containing the complete implementation of exploratory data analysis, data preprocessing, feature engineering, model training, and evaluation.
+* `Lending_Club_Loan_Default_Prediction.ipynb`: Python script containing the complete implementation of exploratory data analysis, data preprocessing, feature engineering, model training, and evaluation.
 * `lending_club_loans.csv`: Raw dataset containing loan and borrower details such as loan amount, grade, annual income, and loan status.
 
 ---
